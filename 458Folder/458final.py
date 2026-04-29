@@ -6,7 +6,7 @@ import pandas as pd
 import sklearn # This is needed for the pickle file to load!
 
 # Load the trained model
-with open("/content/458final.pkl", "rb") as file:
+with open("458final.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Title for the app
